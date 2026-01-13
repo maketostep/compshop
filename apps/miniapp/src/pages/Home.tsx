@@ -1,6 +1,9 @@
+import { Configurator } from "../features/configurator/Configurator";
 
 export default function Home() {
   return (
-    <div>Home</div>
-  )
+    <div>
+      <Configurator />
+    </div>
+  );
 }
